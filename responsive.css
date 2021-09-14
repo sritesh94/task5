@@ -1,0 +1,200 @@
+@media screen and (max-width:1024px) {
+    .container{
+        width: 100%;
+    }
+    #navbar{
+        align-items: stretch;
+    }
+
+    .nav-menu .navmenu{
+        position: fixed;
+        width: 250px;
+        height: 100vh;
+        z-index: 11;
+        top: 0;
+        right: 0;
+        flex-direction: column;
+        background-color: #43cb83;
+        justify-content: flex-start;
+        padding: 30px 0;
+        transition: all 0.5s ease-in;
+        transform: translateX(100%);
+    }
+    .nav-menu .active{
+        transform: translateX(0);
+    }
+    .nav-menu .navmenu li a{
+        color: #fff;
+    }
+    .nav-menu .active-menu{
+        border: none;
+    }
+    .nav-link.apply{
+        padding: 0;
+        border: none;
+        box-shadow: none;
+        background: none;
+    }
+
+    .hamburger{
+        display: block;
+    }
+    .hamburger .times{
+        display: none;
+    }
+
+
+
+    /* Hero Section */
+    .hero-section-container{
+        width: 100%;
+        grid-template-columns: 1fr;
+        padding: 50px;
+        justify-items: center;
+    }
+
+    .hero-section {
+        margin-top: 50px;
+    }
+    .hero-center{
+        text-align: center;
+    }
+    .hero-section {
+        margin-top: 10px;
+    }
+    
+
+    /* Department Section */
+
+    .department .container{
+        grid-template-columns: 1fr 1fr;
+        padding: 20px;
+    }
+    
+/* University Section */
+
+    #university{
+        width: 100%;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        margin-top: 50px;
+        position: relative;
+    }
+    .university-right {
+        text-align: center;
+    }
+    .university-header h4{
+        font-size: 2rem;
+    }
+    .signup-container{
+        width: 100%;
+        grid-template-columns:1fr 1fr;
+    }
+    .left-signup-container{
+        grid-template-columns: 1fr 1fr;
+    }
+    .signup-container img{
+        width: 100%;
+    }
+
+    /* Sign up Section */
+
+    .main-signup{
+        position: static;
+    }
+    .signup{
+        margin: 50px 0;
+    }
+    .main-signup-container {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 30px;
+    }
+    .left-signup-container{
+        gap: 50px;
+    }
+    .signup-headline .second-line {
+        font-size: 1.5rem;
+    }
+    /* News Section */
+    .news-para{
+        grid-template-columns: 1fr;
+        justify-items: center;
+
+    }
+    .tweets{
+        grid-template-columns: 1fr;
+        padding: 20px;
+    }
+    .news-headline{
+        text-align: center;
+    }
+    .news p{
+        padding-bottom: 20px;
+    }
+    
+
+    /* Footer Section */
+
+    #footer {
+        grid-template-columns: 1fr 1fr;
+        row-gap: 20px;
+        column-gap: 40px;
+        padding: 30px;
+    }
+    .rows-para {
+        padding-top: 15px;
+    }
+}
+
+@media screen and (max-width:760px){
+    .department .container{
+        grid-template-columns: 1fr;
+    }
+    
+   /* University Section */
+   .university-footer {
+    grid-template-columns: 1fr;
+}
+
+    /* Signup Section */
+    .signup-container{
+        grid-template-columns: 1fr;
+    }
+    .left-signup-container{
+        grid-template-columns: 1fr;
+    }
+    .main-signup-container{
+        padding: 30px 20px;
+    }
+
+    .right-img{
+        justify-self: stretch;
+    }
+
+    .field.apply-field {
+        padding: 0;
+        gap: 20px;
+        padding-bottom: 10px;
+    }
+    .apply-field button{
+        padding: 10px 20px;
+    }
+
+    /* Footer Section */
+    div#footer {
+        grid-template-columns: 1fr;
+    }
+     /* Copyright Section */
+     .copyright .container{
+        flex-direction: column;
+    }
+    .copyright .copyright-right ul{
+        flex-direction: column;
+    }
+    .copyright-right li{
+        padding: 15px;
+    }
+
+    
+}
